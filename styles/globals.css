@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.eyeIcon,
+.eyeIconReg {
+  position: absolute;
+  z-index: 99;
+  left: 86.08%;
+  margin-top: 0.875rem;
+  color: #7c7c7c;
+  cursor: pointer;
+}
+
+.login {
+  position: absolute;
+  z-index: 99;
+  margin: 0.9rem 0 0 1rem;
+  /* left: 1rem; */
+}
+
+@media (min-width: 48.063em) and (max-width: 69.938em) {
+  .eyeIcon {
+    left: 34.08%;
+  }
+
+  .eyeIconReg {
+    left: 50%;
+  }
+}
+
+@media (min-width: 70em) {
+  .eyeIcon {
+    left: 26.08%;
+  }
+
+  .eyeIconReg {
+    left: 49.08%;
+  }
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+.regi {
+  height: 120vh;
+}
+
+.icons {
+  margin: auto 0.5rem auto 0;
+  color: rgb(73, 24, 65);
+}
+
+.searchIcon {
+  position: absolute;
+  z-index: 99;
+  color: rgb(73, 24, 65);
+  margin: 1rem 0.5rem auto 1.2rem;
+}
+
+.little {
+  border-radius: 10px;
+}
+
+.large {
+  border-radius: 10px;
+}
+
+.heart {
+  margin: auto 0;
+  color: #961484;
+}
+
+.chevron,
+.direct {
+  margin: auto 0;
+}
+
+.direct {
+  color: #961484;
+  cursor: pointer;
+}
+
+.arrR {
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.vendor-ph {
+  border-radius: 50%;
+}
+
+.stars {
+  color: rgba(150, 20, 132, 0.4);
+}
+
+.catImg {
+  border-radius: 0.625rem;
+}
+/* Scroller Styles=============================================================== */
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  width: 0;
+}
